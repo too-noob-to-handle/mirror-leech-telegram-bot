@@ -79,8 +79,8 @@ try:
         log_error(f"TOKEN_PICKLE_URL: {e}")
 except:
     pass
-  
-  download_dict_lock = Lock()
+
+download_dict_lock = Lock()
 status_reply_dict_lock = Lock()
 # Key: update.effective_chat.id
 # Value: telegram.Message
